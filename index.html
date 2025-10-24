@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signal Vault — Daily Trading Ideas, Funding Help & Profit Sharing</title>
+  <meta name="description" content="Signal Vault — daily trading ideas, funding help, profit‑sharing, and member community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .container { max-width: 1200px; }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:border focus:rounded-xl">Skip to content</a>
+
+  <!-- ===== CONFIG (filled with your links) ===== -->
+  <script>
+    const WA_LINK = 'https://wa.me/15819000602';
+    const EMAIL = 'signalvaultindia@gmail.com';
+    const LOGO_URL = 'assets/logo.jpg';
+    const HERO_VIDEO_URL = 'assets/video.mp4';
+  </script>
+  <!-- ========================================= -->
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2" onclick="window.open(WA_LINK,'_blank')">
+        <img src="" data-src-logo alt="Signal Vault logo" class="h-9 w-9 rounded"/>
+        <span class="font-extrabold text-lg">Signal Vault</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:underline">How it works</a>
+        <a href="#press" class="hover:underline">Press</a>
+        <a href="#results" class="hover:underline">Results</a>
+        <a href="#why" class="hover:underline">Why us</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#faq" class="hover:underline">FAQ</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#" class="hidden md:inline-block px-4 py-2 rounded-xl border hover:bg-slate-50" onclick="window.open(WA_LINK,'_blank')">Join Now</a>
+        <button id="menuBtn" class="md:hidden p-2 rounded-lg border" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t bg-white/95">
+      <div class="px-4 py-3 grid gap-2 text-sm">
+        <a href="#services" class="py-2">How it works</a>
+        <a href="#press" class="py-2">Press</a>
+        <a href="#results" class="py-2">Results</a>
+        <a href="#why" class="py-2">Why us</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#faq" class="py-2">FAQ</a>
+        <a href="#contact" class="py-2">Contact</a>
+        <a href="#" class="py-2 font-semibold" onclick="window.open(WA_LINK,'_blank')">Join Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1) HERO (dark, headline first, video below) -->
+    <section id="hero" class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900"></div>
+      <div class="container mx-auto px-4 py-20 md:py-28 text-white text-center flex flex-col items-center justify-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/10 text-xs mb-5">
+          <span>Live Signals</span><span class="opacity-75">Mon–Fri</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight max-w-4xl">
+          Copy, paste & profit from
+          <span class="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-sky-200">daily trading ideas</span>
+        </h1>
+        <p class="mt-5 text-lg text-indigo-100/90 max-w-2xl">Clear entries · risk levels · TP/SL. 20,000+ members worldwide.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="#" class="px-6 py-3 rounded-xl bg-white text-slate-900 hover:bg-indigo-50" onclick="window.open(WA_LINK,'_blank')">Join Now</a>
+          <a href="#services" class="px-6 py-3 rounded-xl border border-white/30 hover:bg-white/10">How it works</a>
+        </div>
+        <div class="mt-10 relative w-full max-w-3xl">
+          <div class="absolute -inset-4 rounded-3xl bg-indigo-400/10 blur-2xl"></div>
+          <video data-src-hero-video autoplay muted loop playsinline class="relative w-full rounded-2xl border border-white/10 shadow-2xl"></video>
+        </div>
+        <div class="mt-8 flex flex-wrap justify-center gap-4 text-sm text-indigo-100/80">
+          <span>Top-rated signals community</span><span>•</span><span>Fast onboarding</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2) SERVICES (light) -->
+    <section id="services" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">Get started with Signal Vault</h2>
+        <p class="text-center text-slate-600 mt-2">Pick an option below — every card opens WhatsApp.</p>
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="group p-6 rounded-2xl border hover:shadow-md transition bg-white">
+            <div class="text-3xl">📲</div>
+            <h3 class="mt-3 font-semibold text-lg">Join for Daily Signals</h3>
+            <p class="mt-2 text-slate-600">Entries, risk, TP/SL — straight to you.</p>
+            <span class="mt-4 inline-block text-sm group-hover:underline">Join Now →</span>
+          </a>
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="group p-6 rounded-2xl border hover:shadow-md transition bg-white">
+            <div class="text-3xl">🎓</div>
+            <h3 class="mt-3 font-semibold text-lg">Enroll — Pass Funded Account</h3>
+            <p class="mt-2 text-slate-600">Guidance to clear prop firm challenges.</p>
+            <span class="mt-4 inline-block text-sm group-hover:underline">Join Now →</span>
+          </a>
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="group p-6 rounded-2xl border hover:shadow-md transition bg-white">
+            <div class="text-3xl">🤝</div>
+            <h3 class="mt-3 font-semibold text-lg">Work with Profit Sharing</h3>
+            <p class="mt-2 text-slate-600">Trade together and split profits fairly.</p>
+            <span class="mt-4 inline-block text-sm group-hover:underline">Join Now →</span>
+          </a>
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="group p-6 rounded-2xl border hover:shadow-md transition bg-white">
+            <div class="text-3xl">💸</div>
+            <h3 class="mt-3 font-semibold text-lg">Discount Price</h3>
+            <p class="mt-2 text-slate-600">Ask for current offers and bundles.</p>
+            <span class="mt-4 inline-block text-sm group-hover:underline">Join Now →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- 4) RESULTS / TESTIMONIALS (dark) -->
+    <section id="results" class="py-16 bg-slate-900 text-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">Member results</h2>
+        <p class="text-center text-slate-300 mt-2">Real stories from our community.</p>
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="resultsGrid">
+          <article class="p-6 rounded-2xl border border-white/10 bg-white/5">
+            <header class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-white/10"></div>
+              <div>
+                <h3 class="font-semibold">Brady, 25 <span class="text-slate-300">· Ireland</span></h3>
+                <p class="text-xs text-slate-400">Member for: 1 month · 20 min/day</p>
+              </div>
+            </header>
+            <dl class="mt-4 grid grid-cols-2 gap-2 text-sm">
+              <div><dt class="text-slate-300">Start deposit</dt><dd class="font-semibold">$1,000</dd></div>
+              <div><dt class="text-slate-300">Current balance</dt><dd class="font-semibold">$2,700</dd></div>
+            </dl>
+            <a href="#" class="mt-4 inline-block text-sm underline" onclick="window.open(WA_LINK,'_blank')">Join Now →</a>
+          </article>
+          <article class="p-6 rounded-2xl border border-white/10 bg-white/5">
+            <header class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-white/10"></div>
+              <div>
+                <h3 class="font-semibold">Jacob, 20 <span class="text-slate-300">· Denmark</span></h3>
+                <p class="text-xs text-slate-400">Member for: 5 months · 15 min/day</p>
+              </div>
+            </header>
+            <dl class="mt-4 grid grid-cols-2 gap-2 text-sm">
+              <div><dt class="text-slate-300">Start deposit</dt><dd class="font-semibold">$6,500</dd></div>
+              <div><dt class="text-slate-300">Current balance</dt><dd class="font-semibold">$41,000</dd></div>
+            </dl>
+            <a href="#" class="mt-4 inline-block text-sm underline" onclick="window.open(WA_LINK,'_blank')">Join Now →</a>
+          </article>
+          <article class="p-6 rounded-2xl border border-white/10 bg-white/5">
+            <header class="flex items-center gap-3">
+              <div class="h-10 w-10 rounded-full bg-white/10"></div>
+              <div>
+                <h3 class="font-semibold">Jon Hansen, 53 <span class="text-slate-300">· Denmark</span></h3>
+                <p class="text-xs text-slate-400">Member for: 1.5 months · 10 min/day</p>
+              </div>
+            </header>
+            <dl class="mt-4 grid grid-cols-2 gap-2 text-sm">
+              <div><dt class="text-slate-300">Start deposit</dt><dd class="font-semibold">€500</dd></div>
+              <div><dt class="text-slate-300">Current balance</dt><dd class="font-semibold">€800</dd></div>
+            </dl>
+            <a href="#" class="mt-4 inline-block text-sm underline" onclick="window.open(WA_LINK,'_blank')">Join Now →</a>
+          </article>
+        </div>
+        <div class="mt-8 text-center">
+          <button id="showMore" class="px-5 py-2 rounded-xl border border-white/20 hover:bg-white/10">Show more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) WHY (light) -->
+    <section id="why" class="py-16 bg-white">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold">Why Signal Vault?</h2>
+          <div class="prose prose-slate max-w-none mt-4">
+            <p>India, it's time to change the way you trade! , Signal vault has
+helped thousands of traders with accurate
+forex trading signals — and now, it's your turn.Join us today, get real-time signals, and trade with confidence. No more confusion...no more losses.. just profits, profits, and profits! Your trading journey to success starts here – with signal vault</p>
+            <p>Our mission is to help traders become consistent — with clear signals, risk management, and disciplined execution.</p>
+            <p>We partner with platforms and programs so we can focus on quality signals, funded‑account guidance, and community support.</p>
+          </div>
+          <div class="mt-6">
+            <a href="#" class="px-5 py-2 rounded-xl border hover:bg-slate-100" onclick="window.open(WA_LINK,'_blank')">Join Now</a>
+          </div>
+        </div>
+        <aside class="p-6 rounded-2xl bg-slate-50 border">
+          <h3 class="font-semibold">Quick links</h3>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li><a href="#" class="hover:underline" onclick="window.open(WA_LINK,'_blank')">WhatsApp</a></li>
+            <li><a href="#" class="hover:underline" onclick="window.open(WA_LINK,'_blank')">EMAIL</a></li>
+           
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 6) ABOUT (light) -->
+    <section id="about" class="py-16 bg-slate-50">
+      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold">Who we are</h2>
+          <ul class="mt-4 space-y-2 list-disc pl-5 text-slate-700">
+            <li>Fred is a seasoned market analyst and the visionary mind behind Signal Vault.
+With years of experience in global trading, he combines data, discipline, and deep insight to guide traders toward smarter decisions.
+His leadership and strategy have helped shape
+Signal Vault into a trusted name in the trading
+world.Analysing the market since 2016</li>
+            <li>Running a copy‑trading community since 2020</li>
+            <li>50+ hours/week combined research for members</li>
+            <li>Guidance for copy trading and self‑trading</li>
+            <li>Certified to provide education and guidance</li>
+          </ul>
+          
+        </div>
+        <div class="p-6 rounded-2xl border bg-white">
+          <h3 class="font-semibold">Highlights</h3>
+          <ul class="mt-3 space-y-2 text-sm text-slate-700">
+            <li>Signal accuracy focus with strict risk</li>
+            <li>Funded‑account pass program</li>
+            <li>Profit‑sharing opportunities</li>
+            <li>Member‑first community</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7) FAQ (light) -->
+    <section id="faq" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center">FAQ</h2>
+        <div class="mt-8 divide-y rounded-2xl border">
+          <details class="p-5" open>
+            <summary class="cursor-pointer font-medium">What if I know nothing about trading?</summary>
+            <p class="mt-3 text-slate-600">You can start without prior experience — copy signals live and learn the basics with us.</p>
+          </details>
+          <details class="p-5">
+            <summary class="cursor-pointer font-medium">How do I start and what is needed?</summary>
+            <p class="mt-3 text-slate-600">Have some capital, click Join Now to speak on WhatsApp, and follow onboarding.</p>
+          </details>
+          <details class="p-5">
+            <summary class="cursor-pointer font-medium">Do you help with funded accounts?</summary>
+            <p class="mt-3 text-slate-600">Yes, we provide guidance to pass prop firm challenges.</p>
+          </details>
+          <details class="p-5">
+            <summary class="cursor-pointer font-medium">Is there profit‑sharing?</summary>
+            <p class="mt-3 text-slate-600">We offer collaboration opportunities with fair splits.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8) CONTACT (dark, only WhatsApp & Email) -->
+    <section id="contact" class="py-16 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold">Contact</h2>
+        <p class="mt-2 text-indigo-100/90">Reach out</p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="px-6 py-3 rounded-xl bg-white text-slate-900 hover:bg-indigo-50">Join Now on WhatsApp</a>
+          <a href="mailto:signalvaultindia@gmail.com" class="px-6 py-3 rounded-xl border border-white/30 hover:bg-white/10">Email us</a>
+        </div>
+        <div class="mt-6 text-sm text-indigo-100/80">
+          <p>Email: <a class="underline" href="mailto:signalvaultindia@gmail.com">signalvaultindia@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-10 border-t bg-white">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+      <div>
+        <p>© <span id="year"></span> Signal Vault | All rights reserved</p>
+        <nav class="mt-2 flex flex-wrap gap-4">
+        
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="hover:underline">Privacy</a>
+          <a href="#" onclick="window.open(WA_LINK,'_blank')" class="hover:underline">Terms</a>
+        </nav>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" onclick="window.open(WA_LINK,'_blank')" class="px-3 py-1.5 rounded-lg border hover:bg-slate-50">Join Now</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie banner (optional basic) -->
+  <div id="cookieBanner" class="fixed inset-x-0 bottom-3 mx-auto w-[95%] md:max-w-3xl p-4 rounded-2xl bg-white border shadow-lg hidden">
+    <div class="flex items-start gap-4">
+      <div class="flex-1">
+        <p class="text-sm">We use cookies and similar technologies to personalize content and improve your experience.</p>
+      </div>
+      <div class="flex gap-2">
+        <button id="cookieDecline" class="px-4 py-2 rounded-xl border hover:bg-slate-50 text-sm">Decline</button>
+        <button id="cookieAccept" class="px-4 py-2 rounded-xl border hover:bg-slate-50 text-sm">Accept</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Apply logo & video sources once DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      const logoEl = document.querySelector('[data-src-logo]');
+      if (logoEl && LOGO_URL) logoEl.src = LOGO_URL;
+
+      const videoEl = document.querySelector('[data-src-hero-video]');
+      if (videoEl && HERO_VIDEO_URL) videoEl.src = HERO_VIDEO_URL;
+
+      // Cookie banner
+      const banner = document.getElementById('cookieBanner');
+      const accept = document.getElementById('cookieAccept');
+      const decline = document.getElementById('cookieDecline');
+      const cookieKey = 'cookieConsentSV';
+      const consent = localStorage.getItem(cookieKey);
+      if (!consent) banner.classList.remove('hidden');
+      accept?.addEventListener('click', () => { localStorage.setItem(cookieKey, 'accepted'); banner.classList.add('hidden'); });
+      decline?.addEventListener('click', () => { localStorage.setItem(cookieKey, 'declined'); banner.classList.add('hidden'); });
+    });
+
+    // Make all anchors with href="#" open WhatsApp (safety net)
+    document.addEventListener('click', (e) => {
+      const t = e.target.closest('a');
+      if (t && t.getAttribute('href') === '#') {
+        e.preventDefault();
+        window.open(WA_LINK,'_blank');
+      }
+    });
+
+    // Mobile menu
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn?.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Show more (clone first 3 result cards again as placeholder)
+    document.getElementById('showMore')?.addEventListener('click', () => {
+      const grid = document.getElementById('resultsGrid');
+      const items = Array.from(grid.children).slice(0, 3).map(n => n.cloneNode(true));
+      items.forEach(n => grid.appendChild(n));
+    });
+  </script>
+</body>
+</html>
